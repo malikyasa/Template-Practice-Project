@@ -1,0 +1,94 @@
+.header-con{
+  font-size: 1.25rem;
+  display: flex;
+  margin-top: 3.75rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+}
+
+
+.header-con .header-nav{
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.header-logo {
+  height: 1.375rem;
+}
+
+
+
+
+.header-con  ul{
+  display: flex;
+  list-style-type: none;
+  gap: 2.5rem;
+  padding: 0rem;
+}
+
+
+.header-con li:hover {
+  cursor: pointer;
+}
+
+.header-btn {
+  font-size: 1.25rem;
+  padding: 1.25rem 2.188rem;
+  border-radius: 0.875rem;
+  border-width: 0.063rem;
+  background-color: white;
+}
+
+.header-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.header-btn:active {
+  background-color: white;
+  color: black;
+}
+
+
+@media(max-width:1200px) {
+  header {
+    font-size: 1.25rem;
+    display: flex;
+    margin-top: 3.75rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    min-width: 56.25rem;
+
+  }
+
+  .header-con .header-nav {
+    display: flex;
+    flex-shrink: 43.75rem;
+    gap: 1.25rem;
+    align-items: center;
+  }
+
+  .header-con ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.25rem;
+    padding: 0rem;
+    white-space: nowrap;
+  }
+
+  .header-btn {
+    font-size: 1.25rem;
+    padding: 1.25rem 2.188rem;
+    border-radius: 0.875rem;
+    border-width: 0.063rem;
+    background-color: white;
+  }
+
+
+}
